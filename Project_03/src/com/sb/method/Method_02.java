@@ -7,12 +7,14 @@ public static void main(String[] args) {
 	long longNum = longNum();
 	float fNum = floatNum();
 	boolean bYes = bYes();
+	String str =nation();
 
 System.out.println(intNum);
 System.out.println(douNum);
 System.out.println(longNum);
 System.out.println(fNum);
 System.out.println(bYes);
+System.out.println(str);
 }
 public static int num() {
 	int intNum1 = 1;
@@ -39,5 +41,7 @@ public static boolean bYes() {
 	boolean bFalse = false;
 	return bTrue && bFalse;
 }
-
+public static String nation() {
+	return "대한민국";
+}
 }
